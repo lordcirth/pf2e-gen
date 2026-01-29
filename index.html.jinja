@@ -14,21 +14,48 @@
 </tr>
 {% for ancestry in ancestries.common %}
 <tr>
-<td>{{ loop.index * 3 - 2 }}-{{ loop.index * 3 }}</td> <td>{{ ancestry.name }}</td>
+<td>{{ (loop.index - 1) * map.common_bias + 1}}-{{ loop.index * map.common_bias }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
 </tr>
 {% endfor %}
 
 {% for ancestry in ancestries.uncommon %}
 <tr>
-<td>{{ uc_offset + loop.index * 2 - 1 }}-{{ uc_offset + loop.index * 2 }}</td> <td>{{ ancestry.name }}</td>
+<td>{{ uc_offset + (loop.index - 1) * map.uncommon_bias + 1}}-{{ uc_offset + loop.index * map.uncommon_bias }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
 </tr>
 {% endfor %}
 
 {% for ancestry in ancestries.rare %}
 <tr>
-<td>{{ r_offset + loop.index }}</td> <td>{{ ancestry.name }}</td>
+<td>{{ r_offset + loop.index }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
 </tr>
 {% endfor %}
+
+</table>
+
+
+<table>
+<tr>
+<th>d100</th>
+</tr>
+{% for background in backgrounds.common %}
+<tr>
+<td>{{ loop.index * 3 - 2 }}-{{ loop.index * 3 }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+</tr>
+{% endfor %}
+
+{#
+{% for background in backgrounds.uncommon %}
+<tr>
+<td>{{ uc_offset + loop.index * 2 - 1 }}-{{ uc_offset + loop.index * 2 }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+</tr>
+{% endfor %}
+
+{% for background in backgrounds.rare %}
+<tr>
+<td>{{ r_offset + loop.index }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+</tr>
+{% endfor %}
+#}
 
 </table>
 

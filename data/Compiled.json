@@ -1,0 +1,1094 @@
+{
+  "ancestries": {
+    "common": [
+      {
+        "name": "Dwarf",
+        "rarity": "Common"
+      },
+      {
+        "name": "Elf",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gnome",
+        "rarity": "Common"
+      },
+      {
+        "name": "Goblin",
+        "rarity": "Common"
+      },
+      {
+        "name": "Halfling",
+        "rarity": "Common"
+      },
+      {
+        "name": "Human",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leshy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orc",
+        "rarity": "Common"
+      }
+    ],
+    "uncommon": [
+      {
+        "name": "Athamaru",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Azarketi",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Catfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Centaur",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fetchling",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Hobgoblin",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kholo",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kitsune",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kobold",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Lizardfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Merfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Minotaur",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Nagaji",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ratfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Samsaran",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tanuki",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tengu",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tripkee",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Vanara",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Wayang",
+        "rarity": "Uncommon"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Anadi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Android",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Automaton",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Awakened Animal",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Conrasu",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dragonet",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Fleshwarp",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Ghoran",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Goloma",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Jotunborn",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Kashrishi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Poppet",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sarangay",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shisk",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shoony",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Skeleton",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sprite",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Strix",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Surki",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Vishkanya",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Yaksha",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Yaoguai",
+        "rarity": "Rare"
+      }
+    ]
+  },
+  "backgrounds": {
+    "common": [
+      {
+        "name": "Academy Dropout",
+        "rarity": "Common"
+      },
+      {
+        "name": "Acolyte",
+        "rarity": "Common"
+      },
+      {
+        "name": "Acrobat",
+        "rarity": "Common"
+      },
+      {
+        "name": "Alloysmith",
+        "rarity": "Common"
+      },
+      {
+        "name": "Animal Whisperer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Anti-Tech Activist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Archaeologist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Artisan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Artist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Astrologer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Back-Alley Doctor",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bandit",
+        "rarity": "Common"
+      },
+      {
+        "name": "Barber",
+        "rarity": "Common"
+      },
+      {
+        "name": "Barkeep",
+        "rarity": "Common"
+      },
+      {
+        "name": "Barrister",
+        "rarity": "Common"
+      },
+      {
+        "name": "Battle Mechanic",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bookkeeper",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bounty Hunter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cannoneer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Charlatan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Clockfighter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Clockwork Researcher",
+        "rarity": "Common"
+      },
+      {
+        "name": "Codebreaker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Combat Carpenter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Combat Chaplain",
+        "rarity": "Common"
+      },
+      {
+        "name": "Conscript",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cook",
+        "rarity": "Common"
+      },
+      {
+        "name": "Courier",
+        "rarity": "Common"
+      },
+      {
+        "name": "Criminal",
+        "rarity": "Common"
+      },
+      {
+        "name": "Crystal Healer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cultist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Curandero",
+        "rarity": "Common"
+      },
+      {
+        "name": "Deckhand",
+        "rarity": "Common"
+      },
+      {
+        "name": "Deep-Sea Diver",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dendrologist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Deputy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Detective",
+        "rarity": "Common"
+      },
+      {
+        "name": "Disciple of the Gear",
+        "rarity": "Common"
+      },
+      {
+        "name": "Driver",
+        "rarity": "Common"
+      },
+      {
+        "name": "Droskari Disciple",
+        "rarity": "Common"
+      },
+      {
+        "name": "Eidolon Contact",
+        "rarity": "Common"
+      },
+      {
+        "name": "Emissary",
+        "rarity": "Common"
+      },
+      {
+        "name": "Entertainer",
+        "rarity": "Common"
+      },
+      {
+        "name": "False Medium",
+        "rarity": "Common"
+      },
+      {
+        "name": "Farmhand",
+        "rarity": "Common"
+      },
+      {
+        "name": "Farmsteader",
+        "rarity": "Common"
+      },
+      {
+        "name": "Field Medic",
+        "rarity": "Common"
+      },
+      {
+        "name": "Fightbreaker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Fire Warden",
+        "rarity": "Common"
+      },
+      {
+        "name": "Firebrand Follower",
+        "rarity": "Common"
+      },
+      {
+        "name": "Fireworks Performer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Fortune Teller",
+        "rarity": "Common"
+      },
+      {
+        "name": "Free Spirit",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gambler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gladiator",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gossip",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grave Robber",
+        "rarity": "Common"
+      },
+      {
+        "name": "Guard",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gunsmith",
+        "rarity": "Common"
+      },
+      {
+        "name": "Harrow-Led",
+        "rarity": "Common"
+      },
+      {
+        "name": "Haunted Citizen",
+        "rarity": "Common"
+      },
+      {
+        "name": "Herbalist",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hermit",
+        "rarity": "Common"
+      },
+      {
+        "name": "Highborn Snoop",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hired Killer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hounded Thief",
+        "rarity": "Common"
+      },
+      {
+        "name": "Hunter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Insurgent",
+        "rarity": "Common"
+      },
+      {
+        "name": "Jeweler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Junk Collector",
+        "rarity": "Common"
+      },
+      {
+        "name": "Junker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Laborer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Magical Merchant",
+        "rarity": "Common"
+      },
+      {
+        "name": "Magical Misfit",
+        "rarity": "Common"
+      },
+      {
+        "name": "Martial Disciple",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mechanic",
+        "rarity": "Common"
+      },
+      {
+        "name": "Medicinal Clocksmith",
+        "rarity": "Common"
+      },
+      {
+        "name": "Merchant",
+        "rarity": "Common"
+      },
+      {
+        "name": "Miner",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mortuarium Survivor",
+        "rarity": "Common"
+      },
+      {
+        "name": "Musical Prodigy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Necromancer's Apprentice",
+        "rarity": "Common"
+      },
+      {
+        "name": "Night Watch",
+        "rarity": "Common"
+      },
+      {
+        "name": "Noble",
+        "rarity": "Common"
+      },
+      {
+        "name": "Nomad",
+        "rarity": "Common"
+      },
+      {
+        "name": "Occult Librarian",
+        "rarity": "Common"
+      },
+      {
+        "name": "Once Bitten",
+        "rarity": "Common"
+      },
+      {
+        "name": "Outrider",
+        "rarity": "Common"
+      },
+      {
+        "name": "Ozem Experience",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pathfinder Recruiter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pilgrim",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pillar",
+        "rarity": "Common"
+      },
+      {
+        "name": "Plague Doctor",
+        "rarity": "Common"
+      },
+      {
+        "name": "Plant Whisperer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Printer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Prisoner",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pyre Tender",
+        "rarity": "Common"
+      },
+      {
+        "name": "Quartermaster",
+        "rarity": "Common"
+      },
+      {
+        "name": "Raised by Belief",
+        "rarity": "Common"
+      },
+      {
+        "name": "Reclaimed",
+        "rarity": "Common"
+      },
+      {
+        "name": "Reclaimed Investigator",
+        "rarity": "Common"
+      },
+      {
+        "name": "Refugee",
+        "rarity": "Common"
+      },
+      {
+        "name": "Remittance Agent",
+        "rarity": "Common"
+      },
+      {
+        "name": "Report Runner",
+        "rarity": "Common"
+      },
+      {
+        "name": "Root Worker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Runner",
+        "rarity": "Common"
+      },
+      {
+        "name": "Saboteur",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sailor",
+        "rarity": "Common"
+      },
+      {
+        "name": "Saloon Entertainer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Scavenger",
+        "rarity": "Common"
+      },
+      {
+        "name": "Scholar",
+        "rarity": "Common"
+      },
+      {
+        "name": "Scout",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sentinel Reflectance",
+        "rarity": "Common"
+      },
+      {
+        "name": "Servant",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sewer Dragon",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sky Rider",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spell Seeker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spotter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Squire",
+        "rarity": "Common"
+      },
+      {
+        "name": "Street Preacher",
+        "rarity": "Common"
+      },
+      {
+        "name": "Street Urchin",
+        "rarity": "Common"
+      },
+      {
+        "name": "Streetfood Vendor",
+        "rarity": "Common"
+      },
+      {
+        "name": "Student of Magic",
+        "rarity": "Common"
+      },
+      {
+        "name": "Tax Collector",
+        "rarity": "Common"
+      },
+      {
+        "name": "Teacher",
+        "rarity": "Common"
+      },
+      {
+        "name": "Thrill-Seeker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Tinker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Toymaker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Trailblazer",
+        "rarity": "Common"
+      },
+      {
+        "name": "Translator",
+        "rarity": "Common"
+      },
+      {
+        "name": "Undertaker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Union Representative",
+        "rarity": "Common"
+      },
+      {
+        "name": "Unremarkable",
+        "rarity": "Common"
+      },
+      {
+        "name": "Veteran",
+        "rarity": "Common"
+      },
+      {
+        "name": "Wandering Preacher",
+        "rarity": "Common"
+      },
+      {
+        "name": "War Orphan",
+        "rarity": "Common"
+      },
+      {
+        "name": "Ward",
+        "rarity": "Common"
+      },
+      {
+        "name": "Warrior",
+        "rarity": "Common"
+      },
+      {
+        "name": "Waste Walker",
+        "rarity": "Common"
+      },
+      {
+        "name": "Weaver",
+        "rarity": "Common"
+      }
+    ],
+    "uncommon": [
+      {
+        "name": "Acupuncturist",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Aeronaut",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Alkenstar Outlaw",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Alkenstar Sojourner",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Arcane Revolutionary",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bachuan Revolutionary",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Battlefield Scrounger",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Circuit Judge",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Concordance Researcher",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Concordance Scout",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Dreamer of the Verdant Moon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Goldhand Arms Dealer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Legacy of the Hammer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Martial Musician",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ocean Diver",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Press-Ganged (G&G)",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Runaway Noble",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Sheriff",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Silk Farmer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tiffin Box Deliverer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Traveling Gourmand",
+        "rarity": "Uncommon"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Amnesiac",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Anti-Magical",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Astrological Augur",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Awful Scab",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Banished Celestial",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Beast Blessed",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Blessed",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Child of the Twin Village",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chosen One",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Cursed",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dauntless",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Discarded Duplicate",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Doomcaller",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eagle Hunter",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eclipseborn",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Elementally Infused",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Empty Whispers",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Energy Scarred",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Fated Rival",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Favored",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Feral Child",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Feybound",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Genie-Blessed",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Harrow-Chosen",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Haunted",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hookclaw Digger",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Kaiju Stalker",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Magical Experiment",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Mechanical Symbiosis",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Mystic Tutor",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Nocturnal Navigator",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Otherworldly Mission",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Planar Migrant",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Professional Letter Writer",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Quick Refugee",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Reborn Soul",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Relentless Dedication",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Returned",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Revenant",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Royalty",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Saved by Clockwork",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Scion of Slayers",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Seer of the Dead",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sign Bound",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Song of the Deep",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Starless One",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sun Dancer",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Surge Investigator",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tall-Tale",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tech-Reliant",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tide Watcher",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Time Traveler",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tomb Born",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tyrant Witness",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Warded by Kami",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Willing Host",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Wished Alive",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Zodiac Bound",
+        "rarity": "Rare"
+      }
+    ]
+  }
+}
