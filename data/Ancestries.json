@@ -1,0 +1,210 @@
+{
+  "ancestries": {
+    "common": [
+      {
+        "name": "Dwarf",
+        "rarity": "Common"
+      },
+      {
+        "name": "Elf",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gnome",
+        "rarity": "Common"
+      },
+      {
+        "name": "Goblin",
+        "rarity": "Common"
+      },
+      {
+        "name": "Halfling",
+        "rarity": "Common"
+      },
+      {
+        "name": "Human",
+        "rarity": "Common"
+      },
+      {
+        "name": "Leshy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Orc",
+        "rarity": "Common"
+      }
+    ],
+    "uncommon": [
+      {
+        "name": "Athamaru",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Azarketi",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Catfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Centaur",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fetchling",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Hobgoblin",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kholo",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kitsune",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Kobold",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Lizardfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Merfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Minotaur",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Nagaji",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ratfolk",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Samsaran",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tanuki",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tengu",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tripkee",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Vanara",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Wayang",
+        "rarity": "Uncommon"
+      }
+    ],
+    "rare": [
+      {
+        "name": "Anadi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Android",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Automaton",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Awakened Animal",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Conrasu",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dragonet",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Fleshwarp",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Ghoran",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Goloma",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Jotunborn",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Kashrishi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Poppet",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sarangay",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shisk",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shoony",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Skeleton",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sprite",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Strix",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Surki",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Vishkanya",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Yaksha",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Yaoguai",
+        "rarity": "Rare"
+      }
+    ]
+  }
+}
