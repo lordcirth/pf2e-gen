@@ -1,5 +1,36 @@
-<table>
+{% from "./map.jinja" import map %}
+<html>
+<head>
+  <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
 
+<body>
+{% set uc_offset = map.common_bias * (ancestries.common | length) %}
+{% set r_offset = map.uncommon_bias * (ancestries.uncommon | length) + uc_offset %}
+
+<table>
+<tr>
+<th>d100</th>
+</tr>
 {% for ancestry in ancestries.common %}
-{{ loop.index * 2 - 1 }}-{{ loop.index * 2 }} {{ ancestry.name }}
+<tr>
+<td>{{ loop.index * 3 - 2 }}-{{ loop.index * 3 }}</td> <td>{{ ancestry.name }}</td>
+</tr>
 {% endfor %}
+
+{% for ancestry in ancestries.uncommon %}
+<tr>
+<td>{{ uc_offset + loop.index * 2 - 1 }}-{{ uc_offset + loop.index * 2 }}</td> <td>{{ ancestry.name }}</td>
+</tr>
+{% endfor %}
+
+{% for ancestry in ancestries.rare %}
+<tr>
+<td>{{ r_offset + loop.index }}</td> <td>{{ ancestry.name }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
