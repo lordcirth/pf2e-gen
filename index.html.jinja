@@ -1,3 +1,5 @@
-{% for ancestry in ancestries %}
-{{ loop.index }}  {{ ancestry.name }}
+<table>
+
+{% for ancestry in ancestries.common %}
+{{ loop.index * 2 - 1 }}-{{ loop.index * 2 }} {{ ancestry.name }}
 {% endfor %}
