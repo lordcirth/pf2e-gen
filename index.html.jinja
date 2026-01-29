@@ -5,12 +5,14 @@
 </head>
 
 <body>
-{% set uc_offset = map.common_bias * (ancestries.common | length) %}
-{% set r_offset = map.uncommon_bias * (ancestries.uncommon | length) + uc_offset %}
+{% set a_uc_offset = map.common_bias * (ancestries.common | length) %}
+{% set a_r_offset = map.uncommon_bias * (ancestries.uncommon | length) + a_uc_offset %}
 
 <table>
 <tr>
 <th>d100</th>
+<th>Ancestry</th>
+<th>Rarity</th>
 </tr>
 {% for ancestry in ancestries.common %}
 <tr>
@@ -20,42 +22,44 @@
 
 {% for ancestry in ancestries.uncommon %}
 <tr>
-<td>{{ uc_offset + (loop.index - 1) * map.uncommon_bias + 1}}-{{ uc_offset + loop.index * map.uncommon_bias }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
+<td>{{ a_uc_offset + (loop.index - 1) * map.uncommon_bias + 1}}-{{ a_uc_offset + loop.index * map.uncommon_bias }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
 </tr>
 {% endfor %}
 
 {% for ancestry in ancestries.rare %}
 <tr>
-<td>{{ r_offset + loop.index }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
+<td>{{ a_r_offset + loop.index }}</td> <td>{{ ancestry.name }}</td> <td>{{ ancestry.rarity }}</td>
 </tr>
 {% endfor %}
 
 </table>
 
+{% set b_uc_offset = map.common_bias * (backgrounds.common | length) %}
+{% set b_r_offset = map.uncommon_bias * (backgrounds.uncommon | length) + b_uc_offset %}
 
 <table>
 <tr>
-<th>d100</th>
+<th>d1000</th>
+<th>Backgrounds</th>
+<th>Rarity</th>
 </tr>
 {% for background in backgrounds.common %}
 <tr>
-<td>{{ loop.index * 3 - 2 }}-{{ loop.index * 3 }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+<td>{{ (loop.index - 1) * map.common_bias + 1}}-{{ loop.index * map.common_bias }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
 </tr>
 {% endfor %}
 
-{#
 {% for background in backgrounds.uncommon %}
 <tr>
-<td>{{ uc_offset + loop.index * 2 - 1 }}-{{ uc_offset + loop.index * 2 }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+<td>{{ b_uc_offset + (loop.index - 1) * map.uncommon_bias + 1}}-{{ b_uc_offset + loop.index * map.uncommon_bias }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
 </tr>
 {% endfor %}
 
 {% for background in backgrounds.rare %}
 <tr>
-<td>{{ r_offset + loop.index }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
+<td>{{ b_r_offset + loop.index }}</td> <td>{{ background.name }}</td> <td>{{ background.rarity }}</td>
 </tr>
 {% endfor %}
-#}
 
 </table>
 
